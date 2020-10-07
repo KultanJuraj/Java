@@ -1,4 +1,4 @@
-package com.appslab2;
+package com.appslab;
 
 public class MbL {
         public static void main(String[] args) {
