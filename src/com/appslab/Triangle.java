@@ -5,7 +5,7 @@ public class Triangle {
         double SiteA = 2;
         double SiteB = 3;
         double SiteC = 4;
-        if (SiteA<=SiteB+SiteC&&SiteA+SiteB<=SiteC&&SiteB<=SiteA+SiteB){
+        if (SiteA<=(SiteB+SiteC)&&(SiteA+SiteB)>=SiteC&&SiteB<=(SiteA+SiteB)){
             boolean triangle = true;
             System.out.println(triangle);
         }
